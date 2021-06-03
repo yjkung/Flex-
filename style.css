@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 20px;
+  font-size: 20px;
+  color:#3F5D45;
+  font-weight: bold;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.block{
+  display: block;
+}
+
+.mb-60{
+  margin-bottom: 60px;
+}
+
+.pd-1{
+  padding:0 122px;
+}
+
+.pd-2{
+  padding:30px 0;
+}
+
+.container{
+  width: 940px;
+  margin:0 auto;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-list{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list ul{
+  display: flex;
+  text-align: center;
+}
+
+.navbar-list li{
+  font-size: 16px;
+  padding-right: 60px;
+}
+
+.logo{
+  margin:30px 0;
+}
+
+.logo img{
+  height: 40px;
+}
+
+.banner{
+  height: 496px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.side{
+  width: 300px;
+}
+
+.sidelist{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sidelist li{
+  font-size: 24px;
+  padding:16px 0;
+  border:1px solid #EAF0ED;
+}
+
+.sidelist li:first-child{
+  background-color: #3F5D45;
+  color:white;
+}
+
+.sidelist li:nth-child(2){
+  background-color: #EAF0ED;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-box{
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.p1{
+  background-image: url(./images/p-1.png);
+}
+
+.p2{
+  background-image: url(./images/p-2.png);
+}
+
+.p3{
+  background-image: url(./images/p-3.png);
+}
+
+.p4{
+  background-image: url(./images/p-4.png);
+}
+
+.p5{
+  background-image: url(./images/p-5.png);
+}
+
+.p6{
+  background-image: url(./images/p-6.png);
+}
+
+.item span{
+  writing-mode: vertical-rl;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #3F5D45;
+  color:white;
+  font-weight: normal;
+  padding: 10px 10px 15px 10px;
+}
+
+.tag{
+  width: 80%;
+  height: 315px;
+  margin:0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tag img{
+  padding-top: 10px;
+}
+
+.product-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-info div{
+  border:1px solid #EAF0ED;
+  text-align: center;
+  vertical-align: middle;
+  padding:14px 0;
+}
+
+.product-info div:first-child{
+  width: 173px;
+}
+
+.product-info div:last-child{
+  width: 127px;
+}
+
+.addCart{
+  background-color: #EAF0ED;
+  text-align: center;
+  padding:16px 0;
+  font-size: 24px;
+}
+
+.page{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-box{
+  border:1px solid #EAF0ED;
+  padding:16px 26px;
+}
+
+.page-num:hover{
+  background-color: #3F5D45;
+  color:white;
+}
+
+.page-box:first-child,.page-box:last-child{
+  padding:18px;
+}
+
+.contact{
+  background-color: #3F5D45;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+  padding:30px 122px;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+}
+
+.contact-box img{
+  width: 40px;
+  padding-right: 20px;
+}
+
+.contact-box span{
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.mail-box{
+  width:380px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mail-box img{
+  width: 24px;
+}
+
+.send{
+  background-color: #FFE180;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+}
+
+.footer{
+  background-color: #EAF0ED;
+}
+
+.footer-banner{
+  display: flex;
+  justify-content: space-between;
+  height: 230px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.footer-logo{
+  width: 277px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.footer-slogan{
+  writing-mode: vertical-rl;
+  font-size: 28px;
+  line-height: 1.5em;
+}
+
+.footer-logo img{
+  width: 171px;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns-info img{
+  width: 32px;
+}
+
+
+*{
+  border:1px solid black;
+}
+
